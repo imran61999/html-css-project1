@@ -1,0 +1,13 @@
+header{
+    background-image: url('../assets/Hero-bg.png');
+    width: 1440;
+    height: 600;
+
+}
+.hero-details{
+    text-align: center;
+}
+.cmn-titile{
+    font-weight: bold;
+    font-size: 48px;
+}
