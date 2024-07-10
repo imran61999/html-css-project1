@@ -6,8 +6,35 @@ header{
 }
 .hero-details{
     text-align: center;
+    padding: 50px;
 }
 .cmn-titile{
     font-weight: bold;
     font-size: 48px;
 }
+.btn-primary{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/* Why Web Development section */
+.seect-body{
+    background-color: #C2D5FF;
+    padding: 20px;
+    margin: 70px;
+}
+
+.section-hed{
+    text-align: center;
+}
+
+.part-1{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+
+
