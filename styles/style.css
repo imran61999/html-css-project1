@@ -4,6 +4,9 @@ header{
     height: 600;
 
 }
+main{
+    margin: 70px;
+}
 .hero-details{
     text-align: center;
     padding: 50px;
@@ -20,9 +23,10 @@ header{
 
 /* Why Web Development section */
 .seect-body{
-    background-color: #C2D5FF;
+    background-color: aqua;
     padding: 20px;
     margin: 70px;
+    border-radius: 15px;
 }
 
 .section-hed{
@@ -35,6 +39,84 @@ header{
     justify-content: space-between;
     background-color: #FFFFFF;
     padding: 50px;
+    border-radius: 15px;
 }
 
 
+.inspir-sec{
+    text-align: center;
+    /* margin: 70px; */
+}
+.ins-video{
+    border: 10px solid yellow;
+    border-radius: 15px;
+    
+}
+
+
+
+.language{
+    display: flex;
+    justify-content: space-between;
+}
+.target-content{
+    text-align: center;
+}
+.html{
+    background-color: #E7ECFF;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.css{
+    background-color: #EBEBEB;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.java{
+    background-color: aqua;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+/* support section */
+
+.support{
+    background-image: url('/assets/handshake.jpg');
+    border-radius: 15px;
+    text-align: center;
+    
+    width: 1050px;
+    height: 310px;
+    padding: 80px;
+    justify-content: center;
+    color: white;
+}
+.support-in{
+    display: flex;
+}
+/* footer seceion */
+footer{
+    background-color: aqua;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+.footer-p{
+    text-align: center;
+}
+.foo{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding-right: 50px;
+}
