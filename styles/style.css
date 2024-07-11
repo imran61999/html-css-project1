@@ -87,18 +87,25 @@ main{
 
 .support{
     background-image: url('/assets/handshake.jpg');
+    background-position: center;
     border-radius: 15px;
     text-align: center;
+    align-items: center;
     
-    width: 1050px;
-    height: 310px;
+    /* width: 1050px; */
+    /* height: 310px; */
     padding: 80px;
     justify-content: center;
     color: white;
     margin-top: 30px;
 }
+
 .support-in{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
 }
 /* footer seceion */
 footer{
